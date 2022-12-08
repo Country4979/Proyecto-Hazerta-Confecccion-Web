@@ -1,0 +1,85 @@
+/* Apariencia cuerpo principal */
+#body{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20PX;
+	padding-left: 20px;
+	height: auto;
+	font-size: large;
+}
+
+/* Posicionamiento de mapas */
+#map{ 
+	display: block;
+	text-align: center;
+}
+
+/*Comportamiento de pie de fotos */
+
+.pie_foto{
+	font-size: x-small;
+	font-style: italic;
+}
+
+/* Comportamiento de los textos */
+.columna{
+	padding-left: 10%;
+	padding-right: 10%;
+	column-count: 2;
+	column-gap: 40px;
+	column-width: auto;
+	text-align: justify;
+	
+	/*Para que funcione en distintos navegadores o versiones anteriores */
+	-webkit-column-count: 2;
+	-webkit-column-gap: 40px;
+	-webkit-column-width: auto;
+
+	-moz-column-count: 2;
+	-moz-column-gap: 40px;
+	-moz-column-width: auto;
+
+	-o-column-count: 2;
+	-o-column-gap: 40px;
+	-o-column-width: auto;
+
+	-ms-column-count: 2;
+	-ms-column-gap: 40px;
+	-ms-column-width: auto;
+
+}
+
+.articulo{
+	padding-left: 50px;
+}
+
+.listado{
+	list-style: none;
+	font-weight: bold;
+	line-height: 1;
+}
+
+.listado a{
+	text-decoration: none;
+}
+
+.listado a:visited{
+	color: darkgrey;
+}
+
+.autor{
+	font-size: small;
+	font-style: italic;
+	line-height: 0.5;
+}
+
+.simple{
+	font-style: normal;
+}
+
+
+/* Comportamiento de imágenes */
+#body img{
+	display: block;
+	margin: auto;
+}

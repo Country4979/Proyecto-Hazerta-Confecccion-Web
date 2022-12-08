@@ -1,0 +1,111 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Fondo ventana modal (background) */
+.modal {
+  display: none; /* Ocultar la ventana por defecto */
+  position: fixed; /* Mantener la posición */
+  z-index: 1; /* Mantener delante */
+  padding-top: 100px; /* Localización de la ventana */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho */
+  height: 100%; /* Alto */
+  overflow: hidden; /* Ausencia de la barra de scroll */
+  background-color: rgb(0,0,0); /* color de fondo */
+  background-color: rgba(0,0,0,0.4); /* color de fondo y opacidad */
+}
+
+/* Contenido de la ventana modal */
+.modal-content {
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 520px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Animación */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* Cerrar ventana */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Cabecera */
+.modal-header {
+  width: 49 0;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  color: white;
+}
+
+/*Cuerpo */
+.modal-body {
+  text-align: justify;
+  width: 500px;
+  height: 420px;
+  overflow-x: hidden;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 22px;
+}
+.nets_body {
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
+  height: 418px;
+  text-align: center;
+}
+.nets_body a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.nets_body a:hover{
+  text-decoration: none;
+}
+
+.modal_redes_images img{
+  width: 25%;
+}
+
+.modal_redes_text{
+  font-size: xx-large;
+}
+
+.special{
+  text-align: left;
+}
+
+.download{
+  text-align: right;
+}
+

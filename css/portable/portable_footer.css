@@ -1,0 +1,48 @@
+/* Pie de la página portable*/
+#footer{
+	justify-content: center;
+	width: 98%;
+	justify-content: center;
+	background-color: aliceblue;
+	overflow-y: auto;
+}
+
+.contenido .box{
+	margin: auto;
+	display: table;
+	width: auto;
+	font-family: "BAUHS93";
+	color: #00436c;
+}
+
+.contenido .box .box-row{
+	display: table-row;
+}
+
+.contenido .box .box-cell{
+	display: table-cell;
+}
+
+.box-cell{
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-right: 5px;
+	width: auto;
+}
+
+.box-cell a{
+	text-decoration: none;
+	color: #00436c;
+}
+
+.img-cell{
+	width: auto;
+}
+
+.text-who{
+	width: 100px;
+	min-width: 15%;
+	padding:  0 0 0 0;
+	margin: 0 0 0 0;
+}

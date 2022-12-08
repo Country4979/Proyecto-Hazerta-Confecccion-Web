@@ -1,0 +1,38 @@
+/* Cabecera de la página portable */
+
+h1{
+	font-size: x-large;
+}
+
+h2{
+	font-size: large;
+}
+
+#header{
+	background-color: aliceblue;
+	display: flex;
+	flex-basis: auto;
+	width: 100%;
+	height: 15%;
+	font-family: "BAUHS93";
+}
+
+.logo_contain{
+	display: block;
+	padding-left: 5px;
+	width: 20%;
+	background-color: aliceblue;
+}
+
+#text_header{
+	margin: 0;
+	position: relative;
+	width: 80%;
+	justify-content: center;
+	text-align: center;
+}
+
+#logo img{
+	vertical-align: middle;
+	max-width: 99%;
+}

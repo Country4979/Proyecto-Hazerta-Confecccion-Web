@@ -1,0 +1,10 @@
+/* Apariencia cuerpo pprincipal portable*/
+#body{
+	overflow-y: auto;
+	border-width: 2px;
+	margin-top: auto;
+	margin-left: 20px;
+	margin-bottom: auto;
+	padding-right: 20PX;
+	text-align: center;
+}

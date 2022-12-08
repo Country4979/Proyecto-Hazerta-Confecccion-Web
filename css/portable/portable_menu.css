@@ -1,0 +1,84 @@
+/* Menú de la página */
+/* Estilo del div contenedor del menú */
+
+#menu{
+	font-size: small;
+   clear: both;
+	display: block;
+	text-align: center;
+	width: 98%;
+	height: 30px;
+	font-family: "BAUHS93";
+	color: #00436c;
+}
+
+li{
+	font-size: small;
+}
+
+ul{
+	font-size: small;
+}
+
+#menu a{
+	font-size: small;
+	color: #00436c;
+}
+
+#menu ul ul {
+font-size: small;
+ display:none;
+ position:absolute;
+ background:#eee;
+ padding: 0px;
+}
+
+#menu ul ul li {
+	font-size: small;
+ float:none;
+ width:150px
+}
+
+#menu ul li:hover > ul {
+	transform: scale(1,1);
+	transform-origin: top center;
+	transition: 0.3s;
+	font-size: small;
+    display:block;
+}
+
+.upper{
+	text-transform: uppercase;
+}
+
+/* Menú navegación*/
+
+nav {
+	margin-left: -20px;
+	width: 103%;
+	vertical-align: middle;
+	font-size: small;
+}
+nav ul li{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* Submenu */
+.submenu:hover{
+	background: #00436c;
+	color: white !important;
+	float:none;
+	width:150px
+}.submenu a:hover{
+	color: white !important;
+}

@@ -1,0 +1,29 @@
+/* ARCHIVO CSS DEL CUERPO */
+/* Añadimos las fuentes no comunes que se van a emplear en la página */
+@font-face{
+	font-family: "BAUHS93";
+	src: url("../fonts/BAUHS93.TTF") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Fondo */
+#screen{
+	widt: 99%;
+	margin-top: 0;
+	margin-left: 0;
+	background-color: aliceblue;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+
+/* Apariencia de los títulos */
+h1, h2, h3, h4{
+	font-family: BAUHS93;
+	color: #00436c;
+}
+/* Cursor */
+.policy{
+	cursor: pointer;
+	letter-spacing: 1px;
+}
